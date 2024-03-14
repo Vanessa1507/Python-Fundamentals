@@ -39,3 +39,7 @@ def http_status_code():
 
 
 http_status_code()  # 200, "OK"
+
+code, name = http_status_code()
+code  # 200
+name  # "OK"
