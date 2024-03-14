@@ -93,3 +93,9 @@ print(animals)  # ['Cat', 'Rabbit', 'Cow', 'Dog']
 
 animals.pop()  # 'Dog'
 print(animals)  # ['Cat', 'Rabbit', 'Cow']
+
+animals.pop(1)  # 'Rabbit'
+print(animals)  # ['Cat', 'Cow']
+len(animals)  # 2
+
+# animals.pop(3)  # IndexError: pop index out of range
