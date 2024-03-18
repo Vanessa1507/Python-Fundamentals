@@ -98,3 +98,12 @@ a and (b or c)  # True
 a = True
 b = True
 not (a or b)  # False
+
+
+# TRUTHINESS
+bool(0)  # False. Truthiness of 0 is False
+bool(1)  # True. Truthiness of 1 is True
+bool(None)  # False. Truthiness of None type is False
+1 or 0  # Returns 1, the True value
+1 and 0  # Returns 0, the False value
+0 or None  # Neither are True. Returns nothing (None)
